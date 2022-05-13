@@ -1,0 +1,10 @@
+nav a 
+{
+    text-decoration: none;
+    color: chartreuse;
+    padding: 40px;
+}
+nav :hover
+{
+ background-color: beige;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="javascript.js"></script>
+   
+    
+<script>
+    var x = 8,
+        y = 2
+
+    var z = x + y;
+    console.log(z)
+    // BMI = bady mass index
+    // BMI = weight / ( height * height )
+    // bmi < 14.99 underweight; 15.00 < bmi > 24.99 normal; 25.00 < bmi overweight
+
+    var FakhriddinWeight = 77;
+    var FakhriddinHeight = 1.76;
+    var FakhriddinBmi = FakhriddinWeight / ( FakhriddinHeight * FakhriddinHeight );
+    console.log(FakhriddinBmi);
+
+    var studentScore = 50;
+       
+    if (studentScore >= 90) {
+        console.log("You got A")
+    } else if( studentScore < 90 && studentScore >= 80 ) {
+        console.log("You got B")  
+    } else if( studentScore < 80 && studentScore >= 70 ) {
+        console.log("You got C")
+    } else if( studentScore < 70 && studentScore >= 60 ) {
+        console.log("You got D")
+    } else { studentScore < 60 && studentScore >= 50 
+        console.log("You got E, loser")
+    }
+</script>
+
+
+</body>
+</html>
